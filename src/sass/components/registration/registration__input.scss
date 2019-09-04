@@ -1,0 +1,12 @@
+.registration__input {
+  border: 1px solid $border-btn;
+  border-radius: 10px;
+  background: $white;
+  width: 268px;
+  height: 48px;
+  padding-left: 14px;
+
+  &:focus {
+    outline: none;
+  }
+}

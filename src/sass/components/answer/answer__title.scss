@@ -1,0 +1,14 @@
+.answer__title {
+  margin: 0;
+  padding: 0;
+  color: $white;
+  font-weight: 700;
+  font-family: $OpenSans;
+}
+
+@media (max-width: 767px) {
+  .answer__title {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Genesis</title>
+  </head>
+  <body>
+    <section class="start start--white">
+      <div class="container container--paliviolet">
+        <div class="foto foto--paliviolet">
+          <div class="answer">
+            <p class="answer__title"></p>
+            <p class="answer__subtitle"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form--paliviolet">
+        <div class="text text--paliviolet">
+          <p class="text__title text__title--paliviolet">Lorem ipsum</p>
+
+          <p class="text__subtitle">
+            Mauris vel nisi ac orci placerat semper. Aenean sapien massa.
+          </p>
+        </div>
+
+        <div class="div-btn">
+          <p class="div-btn__title">Lorem ipsum?</p>
+
+          <button class="div-btn__btn div-btn__btn--paliviolet">НАчать</button>
+        </div>
+      </div>
+
+      <div class="form--orange-red display--none">
+        <div class="text text--orange-red">
+          <p class="text__title text__title--orange-red">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+            urna sit amet
+          </p>
+        </div>
+
+        <div class="div-btn">
+          <button class="div-btn__btn div-btn__btn--orange-red">
+            Вариант А
+          </button>
+          <button class="div-btn__btn div-btn__btn--orange-red">
+            Вариант Б
+          </button>
+          <button class="div-btn__btn div-btn__btn--orange-red">
+            Вариант В
+          </button>
+          <button
+            class="div-btn__btn div-btn__btn--continue-orange-red div-btn__btn--none"
+          >
+            Продолжить
+          </button>
+        </div>
+      </div>
+
+      <div class="form--yellow display--none">
+        <div class="text text--yellow">
+          <p class="text__title text__title--yellow">
+            Lorem ipsum
+          </p>
+        </div>
+
+        <div class="div-btn">
+          <button class="div-btn__btn div-btn__btn--yellow" data-gender="male">
+            Вариант А
+          </button>
+          <button
+            class="div-btn__btn div-btn__btn--yellow"
+            data-gender="female"
+          >
+            Вариант Б
+          </button>
+          <button
+            class="div-btn__btn div-btn__btn--continue-yellow div-btn__btn--none"
+          >
+            Продолжить
+          </button>
+        </div>
+      </div>
+
+      <div class="form--blue display--none">
+        <div class="text text--blue">
+          <p class="text__title text__title--blue">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod
+          </p>
+        </div>
+
+        <form action="" class="registration">
+          <label class="registration__text">Я ищу:</label>
+          <div class="registration__button">
+            <button class="registration__btn-first" type="button">
+              Вариант 1
+            </button>
+            <button class="registration__btn-second" type="button">
+              Вариант 2
+            </button>
+          </div>
+
+          <!--  -->
+          <label class="registration__text">Ваше имя:</label>
+          <input
+            type="text"
+            id="name"
+            class="registration__input"
+            data-required="true"
+            data-val-required="Введите своё имя"
+            data-val-invalid="Только латинские буквы"
+            data-val-regex="^[a-zA-Z]*$"
+            data-type="text"
+          />
+          <p class="registration__error"></p>
+
+          <label class="registration__text">Email:</label>
+          <input
+            type="text"
+            id="email"
+            class="registration__input"
+            autocomplete="email"
+            data-required="true"
+            data-val-required="Неверный формат email"
+            data-val-invalid="Email не валидный"
+            data-val-regex="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+            data-type="email"
+          />
+          <p class="registration__error"></p>
+
+          <label class="registration__text">
+            Придумайте пароль:
+          </label>
+          <input
+            type="password"
+            id="password"
+            class="registration__input"
+            autocomplete="password"
+            data-required="true"
+            data-val-required="Придумайте новый пароль"
+            data-type="password"
+          />
+          <p class="registration__error"></p>
+          <!--  -->
+
+          <label class="registration__text" for="license">
+            <input
+              type="checkbox"
+              checked
+              id="license"
+              class="registration__license"
+            />
+            Регистрируясь, вы подтверждаете, что вам уже исполнилось 18 лет и вы
+            ознакомились с условиями пользования сайтом.
+          </label>
+
+          <button type="submit" class="registration__submit" disabled>
+            Продолжить
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

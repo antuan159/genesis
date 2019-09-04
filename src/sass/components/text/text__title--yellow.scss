@@ -1,0 +1,9 @@
+.text__title--yellow {
+  color: $yellow;
+}
+
+@media (max-width: 767px) {
+  .text__title--yellow {
+    font-size: 18px;
+  }
+}

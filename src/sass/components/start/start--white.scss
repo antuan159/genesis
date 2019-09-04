@@ -1,0 +1,10 @@
+.start--white {
+  background: $white;
+}
+
+@media (max-width: 767px) {
+  .start--white {
+    min-height: 640px;
+    background: $white;
+  }
+}

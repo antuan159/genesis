@@ -1,0 +1,10 @@
+.text__title--paliviolet {
+  color: $paliviolet;
+}
+
+@media (max-width: 767px) {
+  .text__title--paliviolet {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+}

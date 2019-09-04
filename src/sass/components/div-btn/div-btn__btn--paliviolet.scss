@@ -1,0 +1,17 @@
+.div-btn__btn--paliviolet {
+  background-color: $paliviolet;
+  border: 0px;
+  border-radius: 15px;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .div-btn__btn--paliviolet {
+    width: 246px;
+    height: 48px;
+    font-size: 22px;
+  }
+}

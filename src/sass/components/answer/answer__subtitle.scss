@@ -1,0 +1,14 @@
+.answer__subtitle {
+  margin: 0;
+  padding: 0;
+  color: $white;
+  font-family: $OpenSans;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .answer__subtitle {
+    margin-top: 30px;
+    width: 240px;
+  }
+}

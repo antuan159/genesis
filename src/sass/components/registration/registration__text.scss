@@ -1,0 +1,27 @@
+.registration__text {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-family: $OpenSans;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+
+.registration__text:last-of-type {
+  font-family: $OpenSans;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .registration__text {
+    font-size: 11px;
+    display: inline-block;
+    width: 268px;
+  }
+
+  .registration__text:last-of-type {
+    padding-top: 12px;
+    padding-bottom: 8px;
+    font-size: 7px;
+  }
+}

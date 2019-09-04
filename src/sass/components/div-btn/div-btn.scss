@@ -1,0 +1,12 @@
+.div-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .div-btn {
+    padding-left: 46px;
+    width: 260px;
+  }
+}

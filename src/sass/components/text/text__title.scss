@@ -1,0 +1,16 @@
+.text__title {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $OpenSans;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 767px) {
+  .text__title {
+    padding-left: 46px;
+    padding-right: 38px;
+  }
+}

@@ -1,0 +1,15 @@
+.answer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .answer {
+    min-height: 227px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

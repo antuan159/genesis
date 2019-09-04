@@ -1,0 +1,66 @@
+@import "./base/normalize";
+@import "./base/common";
+@import "./variables/variables";
+
+@import "./components/container/container";
+@import "./components/container/container--paliviolet";
+@import "./components/container/container--orange-red";
+@import "./components/container/container--yellow";
+@import "./components/container/container--blue";
+
+@import "./components/start/start";
+@import "./components/start/start--white";
+
+@import "./components/foto/foto";
+@import "./components/foto/foto--paliviolet";
+@import "./components/foto/foto--orange-red";
+@import "./components/foto/foto--yellow";
+@import "./components/foto/foto--blue";
+
+@import "./components/answer/answer";
+@import "./components/answer/answer__title";
+@import "./components/answer/answer__subtitle";
+@import "./components/answer/answer--orange-red";
+@import "./components/answer/answer__title--orange-red";
+@import "./components/answer/answer__subtitle--orange-red";
+@import "./components/answer/answer--yellow";
+@import "./components/answer/answer__title--yellow";
+@import "./components/answer/answer__subtitle--yellow";
+
+@import "./components/form/form";
+@import "./components/display--none";
+
+@import "./components/div-btn/div-btn";
+@import "./components/div-btn/div-btn__btn";
+@import "./components/div-btn/div-btn__btn--continue-orange-red";
+@import "./components/div-btn/div-btn__btn--continue-yellow";
+@import "./components/div-btn/div-btn__btn--paliviolet";
+@import "./components/div-btn/div-btn__btn--orange-red";
+@import "./components/div-btn/div-btn__btn--yellow";
+@import "./components/div-btn/div-btn__title";
+@import "./components/div-btn/div-btn__btn--none";
+
+@import "./components/text/text";
+@import "./components/text/text--paliviolet";
+@import "./components/text/text--orange-red";
+@import "./components/text/text--yellow";
+@import "./components/text/text--blue";
+@import "./components/text/text__title";
+@import "./components/text/text__title--paliviolet";
+@import "./components/text/text__title--orange-red";
+@import "./components/text/text__title--yellow";
+@import "./components/text/text__title--blue";
+@import "./components/text/text__subtitle";
+
+@import "./components/registration/registration";
+@import "./components/registration/registration__text";
+@import "./components/registration/registration__button";
+@import "./components/registration/registration__btn-first";
+@import "./components/registration/registration__btn-second";
+@import "./components/registration/registration__input";
+@import "./components/registration/registration__license";
+@import "./components/registration/registration__submit";
+@import "./components/registration/registration__submit--active";
+@import "./components/registration/registration__btn--active-first";
+@import "./components/registration/registration__btn--active-second";
+@import "./components/registration/registration__error";

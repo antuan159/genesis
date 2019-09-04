@@ -1,0 +1,16 @@
+.registration__btn--active-first {
+  background: $blue;
+  color: $white;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 10px;
+    width: 18px;
+    height: 22px;
+    display: block;
+    background-image: url(../images/mobile/man-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

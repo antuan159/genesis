@@ -1,0 +1,17 @@
+.div-btn__title {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $OpenSans;
+  letter-spacing: 0.05em;
+  color: $grey;
+}
+
+@media (max-width: 767px) {
+  .div-btn__title {
+    font-size: 22px;
+    margin-bottom: 16px;
+    width: 260px;
+  }
+}

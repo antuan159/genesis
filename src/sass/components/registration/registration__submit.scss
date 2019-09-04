@@ -1,0 +1,12 @@
+.registration__submit {
+  border: 1px solid $blue;
+  border-radius: 20px;
+  background: $white;
+}
+
+@media (max-width: 767px) {
+  .registration__submit {
+    width: 148px;
+    height: 48px;
+  }
+}

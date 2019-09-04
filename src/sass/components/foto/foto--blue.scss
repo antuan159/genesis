@@ -1,0 +1,11 @@
+.foto--blue {
+}
+@media (max-width: 767px) {
+  .foto--blue {
+    background: $gradient-blue, $girl-mobile;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 130px;
+  }
+}

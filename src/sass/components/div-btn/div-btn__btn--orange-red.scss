@@ -1,0 +1,27 @@
+.div-btn__btn--orange-red {
+  padding: 0;
+  background-color: $white;
+  border: 2px solid $border-btn;
+  border-radius: 10px;
+  color: $grey;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+
+  &:focus {
+    outline: none;
+    background: $orange-red;
+    color: $white;
+  }
+}
+
+@media (max-width: 767px) {
+  .div-btn__btn--orange-red {
+    width: 214px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .div-btn__btn--orange-red:nth-child(-n + 2) {
+    margin-bottom: 10px;
+  }
+}

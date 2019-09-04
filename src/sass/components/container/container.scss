@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 70%;
+    height: 100vh;
+  }
+}

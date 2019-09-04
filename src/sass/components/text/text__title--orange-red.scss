@@ -1,0 +1,9 @@
+.text__title--orange-red {
+  color: $orange-red;
+}
+
+@media (max-width: 767px) {
+  .text__title--orange-red {
+    font-size: 16px;
+  }
+}

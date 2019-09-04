@@ -1,0 +1,52 @@
+.div-btn__btn--yellow {
+  padding: 0;
+  background-color: $white;
+  border: 2px solid $border-btn;
+  border-radius: 10px;
+  color: $grey;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  position: relative;
+
+  &:focus {
+    outline: none;
+    background: $yellow;
+    color: $white;
+  }
+}
+
+@media (max-width: 767px) {
+  .div-btn__btn--yellow {
+    width: 214px;
+    height: 50px;
+    font-size: 16px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 30px;
+      top: 12px;
+      width: 18px;
+      height: 22px;
+      display: block;
+      background-image: url(../images/mobile/women.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(1) {
+      margin-bottom: 10px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 30px;
+        top: 12px;
+        width: 18px;
+        height: 22px;
+        display: block;
+        background-image: url(../images/mobile/man.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

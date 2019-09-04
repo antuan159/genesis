@@ -1,0 +1,33 @@
+.registration__btn-second {
+  border: 1px solid $border-btn;
+  border-radius: 10px;
+  background: $white;
+  font-family: $OpenSans;
+  font-size: 14px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 10px;
+    width: 18px;
+    height: 22px;
+    display: block;
+    background-image: url(../images/mobile/women.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .registration__btn-second {
+    min-width: 130px;
+    height: 48px;
+    padding-left: 20px;
+  }
+}

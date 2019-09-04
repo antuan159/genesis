@@ -1,0 +1,9 @@
+.text__title--blue {
+  color: $blue;
+}
+
+@media (max-width: 767px) {
+  .text__title--blue {
+    font-size: 16px;
+  }
+}

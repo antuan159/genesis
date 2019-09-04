@@ -1,0 +1,13 @@
+.div-btn__btn {
+  padding: 0;
+  margin: 0;
+  font-family: $OpenSans;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .div-btn__btn {
+  }
+}

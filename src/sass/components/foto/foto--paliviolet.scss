@@ -1,0 +1,12 @@
+.foto--paliviolet {
+}
+
+@media (max-width: 767px) {
+  .foto--paliviolet {
+    background: $gradient-paliviolet, $girl-mobile;
+    min-width: 100%;
+    min-height: 227px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

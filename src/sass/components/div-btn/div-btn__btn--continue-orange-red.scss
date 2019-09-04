@@ -1,0 +1,18 @@
+.div-btn__btn--continue-orange-red {
+  border-radius: 15px;
+  background-color: $orange-red;
+  border: 2px solid $border-btn;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $OpenSans;
+  letter-spacing: 0.075em;
+}
+
+@media (max-width: 767px) {
+  .div-btn__btn--continue-orange-red {
+    margin-top: 24px;
+    width: 172px;
+    height: 48px;
+    font-size: 16px;
+  }
+}

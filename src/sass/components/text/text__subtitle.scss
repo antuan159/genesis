@@ -1,0 +1,22 @@
+.text__subtitle {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  letter-spacing: 0.05em;
+  color: $grey;
+}
+
+@media (max-width: 767px) {
+  .text__subtitle {
+    padding-left: 46px;
+    padding-right: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text__subtitle {
+  }
+}

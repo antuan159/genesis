@@ -1,0 +1,12 @@
+.foto--orange-red {
+}
+
+@media (max-width: 767px) {
+  .foto--orange-red {
+    background: $gradient-orange-red, $girl-mobile;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 227px;
+  }
+}

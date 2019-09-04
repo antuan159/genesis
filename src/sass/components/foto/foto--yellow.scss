@@ -1,0 +1,12 @@
+.foto--yellow {
+}
+
+@media (max-width: 767px) {
+  .foto--yellow {
+    background: $gradient-yellow, $girl-mobile;
+    min-width: 100%;
+    min-height: 227px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
